@@ -1,0 +1,19 @@
+###
+GET http://localhost:4999
+
+###
+POST http://localhost:4999/api/info
+Content-Type: application/json
+
+{
+    "information": "my name is justin"
+}
+
+###
+PUT  http://localhost:4999/api/
+Content-Type: application/json
+
+{
+ 
+    "information": "my name is justin"
+}
