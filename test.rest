@@ -1,8 +1,8 @@
 ###
-GET http://localhost:4999
+DELETE http://localhost:4999/delete?id=8
 
 ###
-POST http://localhost:4999/api/info
+POST http://localhost:4999/api/info?id=8
 Content-Type: application/json
 
 {
@@ -10,10 +10,7 @@ Content-Type: application/json
 }
 
 ###
-PUT  http://localhost:4999/api/
-Content-Type: application/json
+PUT  http://localhost:4999/api/?word=justin&banana=ripe
 
-{
- 
-    "information": "my name is justin"
-}
+###
+DELETE http://localhost:4999/delete/justin/cool
